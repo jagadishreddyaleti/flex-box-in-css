@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box in css</title>
+    <style>
+        .item{
+            height:100px;
+            width: 100px;
+        }
+        .one{
+            background-color:red ;
+        }
+        .two{
+            background-color: blue;
+            
+        }
+        .three{
+            background-color: green;
+        }
+        .flex-container{
+            border: 6px solid rgba(17, 199, 147, 0.76);
+            height: 600px;
+            display:flex;
+            flex-direction: row;
+             /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse;  */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse;  */
+            /* justify-content: baseline; */
+            /* justify-content: center; */
+            /* justify-content: end; */
+            /* justify-content: space-around;
+            justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* align-items:baseline;
+            align-items: center;
+            align-items:flex-end ; */
+            /* align-items:stretch ; */
+        }
+    </style>
+</head>
+<body>
+    <h1> flex box</h1><hr>
+    <div class="flex-container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item three">3</div>
+    </div>
+</body>
+</html>
